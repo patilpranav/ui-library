@@ -1,0 +1,5 @@
+<div style="display: flex; margin-top: 10px; justify-content: space-between;">
+    @for (buttonConfig of buttonArray; track $index) {
+        <lib-button [buttonConfiguration]="buttonConfig" (click)="onclick($event)">{{buttonConfig.text}}</lib-button>
+    }
+</div>

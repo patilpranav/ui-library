@@ -1,0 +1,20 @@
+@switch (buttonConfiguration.type) {
+    @case ('Primary') {
+        <button class="btn-primary" [ngStyle]="buttonConfiguration?.customStyle" 
+        [disabled]="buttonConfiguration.disabled" >
+            {{buttonConfiguration.text}}
+        </button>
+    }
+    @case ('Secondary') {
+        <button class="btn-secondary" [ngStyle]="buttonConfiguration?.customStyle"
+        [disabled]="buttonConfiguration.disabled">
+            {{buttonConfiguration.text}}
+        </button>
+    }
+    @case ('Teritiary') {
+        <button class="btn-teritiary" [ngStyle]="buttonConfiguration?.customStyle"
+        [disabled]="buttonConfiguration.disabled">
+            {{buttonConfiguration.text}}
+        </button>
+    }
+}
