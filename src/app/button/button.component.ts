@@ -1,4 +1,3 @@
-import { style } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import { ButtonComponent } from 'ui-components';
 

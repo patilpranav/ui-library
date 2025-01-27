@@ -1,0 +1,11 @@
+
+<div style="display: flex; margin-top: 10px; justify-content: space-between;">
+    @for (inputConfig of inputArray; track $index) {
+        <input 
+        [type]="inputConfig.type" 
+        [placeholder]="inputConfig.placeholder" 
+        [name]="inputConfig.formControlName"
+        
+        >
+    }
+</div>

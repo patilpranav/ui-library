@@ -8,7 +8,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'ui-library';
-  navItems = [{title: 'Button', route:'/button'}] 
+  navItems = [{title: 'Button', route:'/button'}, {title: 'Input', route:'/input'},] 
 
   onclick(event: Event) {
     console.log(event);

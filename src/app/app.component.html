@@ -3,7 +3,7 @@
     <nav>
       <ul>
         @for (item of navItems; track $index) {
-          <li [routerLink]="['/button']">{{item.title}}</li>
+          <li [routerLink]="item.route">{{item.title}}</li>
         }
       </ul>
     </nav>
